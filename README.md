@@ -1,15 +1,30 @@
 # Redux Blog App
 
-Simple react-based app that takes user input in a search field and returns multiple videos from Youtube based on the search terms. User can play video in video component, or can select a different video from the search results to the right of the video player. This app utilizes the public Youtube API to display search results.
+Simple react-based app that retrieves JSON data from jsonPlaceholder.typicode. This fake API data is then used to propagate mock blog posts, which display in a list on-screen. My goal in building this project was to gain practice using Redux for Global State Management.
 
-I built this simple app in order to practice my understanding of the following topics:
+In building this app, I was able to gain a deeper understanding of the following:
 
-- Crafting controlled forms
-- Accessing and utilizing Google's Youtube Data API
-- Building an app using class-based components rather than functional components
-- Leveraging state and lifecycle methods SANS hooks
-- Dynamic rendering based on state
-- Making calls with Axios
-- Styling content using Semantic-UI
+- Planning a Redux Project
+- Building reducers
+- Wiring up Providers
+- The Connect Function
+- Configuring Connect with MapStateToProps
+
+- Redux Thunk and why we need it...
+- Tricking Redux with Dummy Reducers
+- Fetching data in a Redux App
+- Making requests from an action creator
+- Understanding (deeply) async action creators
+- Middlewares in Redux
+- Shortened Syntax with Redux Thunk
+
+- Pure Reducers
+- Edge cases re: mutating a Reducer's input state argument
+- Safe State Updates in Reducers
+- Equality of Arrays and Objects
+- Switch Statements inside Reducers
+- Extracting logic to mapStateToProps
+- Memoizing Functions
+- Action Creators inside of Action Creators!
 
 See the live app <a href="https://tcs-simple-youtube-clone.netlify.app/" target="_blank" >here</a>.
